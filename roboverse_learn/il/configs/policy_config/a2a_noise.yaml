@@ -38,7 +38,7 @@ history_noise_std: 0.1
 
 # Flow matcher parameters
 flow_matcher:
-  _target_: roboverse_learn.il.utils.flow.flow_matchers.ConditionalFlowMatcher
+  _target_: roboverse_learn.il.utils.flow.flow_matchers.ExactOptimalTransportConditionalFlowMatcher
   sigma: 0.0
   num_sampling_steps: 6
 
