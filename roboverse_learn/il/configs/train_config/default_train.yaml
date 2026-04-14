@@ -32,14 +32,14 @@ optimizer:
   weight_decay: 1.0e-6
 
 dataloader:
-  batch_size: 32
+  batch_size: 8
   num_workers: 0
   shuffle: True
   pin_memory: True
   persistent_workers: False
 
 val_dataloader:
-  batch_size: 32
+  batch_size: 8
   num_workers: 0
   shuffle: False
   pin_memory: True

@@ -1,9 +1,8 @@
+from typing import Optional, Union
 from diffusers.optimization import (
     TYPE_TO_SCHEDULER_FUNCTION,
     Optimizer,
-    Optional,
     SchedulerType,
-    Union,
 )
 
 

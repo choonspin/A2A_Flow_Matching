@@ -10,7 +10,7 @@ task_name_set=close_box
 random_level=0
 num_envs=1              # Number of parallel environments
 demo_start_idx=0        # Index of the first demo to collect
-sim_set=isaacsim
+sim_set=mujoco
 cust_name=test
 num_demo_success=50
 
@@ -30,7 +30,7 @@ python ./scripts/advanced/collect_demo.py \
 --task=${task_name_set} \
 --num_envs=${num_envs} \
 --run_unfinished \
---headless \
+--no-headless \
 --demo_start_idx=${demo_start_idx} \
 --num_demo_success ${num_demo_success} \
 --cust_name=${cust_name} \
